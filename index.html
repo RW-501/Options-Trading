@@ -6,6 +6,7 @@
   <title>Options Trading Website</title>
   <!-- Include your CSS file(s) here -->
   <link rel="stylesheet" href="styles.css">
+
 </head>
 <body>
   <!-- Header section -->
@@ -35,29 +36,28 @@
      
     </section>
 
-  <!-- Sorting and filtering options section -->
-<section id="sorting-section">
-  <h2>Sort and Filter</h2>
-  <label for="sort-by">Sort By:</label>
-  <select id="sort-by" name="sort-by">
-    <option value="profitability">Profitability</option>
-    <option value="trade-strategies">Trade Strategies</option>
-    <option value="total-cost">Total Cost</option>
-  </select>
+    <!-- Sorting and filtering options section -->
+    <section id="sorting-section">
+      <h2>Sort and Filter</h2>
+      <label for="sort-by">Sort By:</label>
+      <select id="sort-by" name="sort-by">
+        <option value="profitability">Profitability</option>
+        <option value="trade-strategies">Trade Strategies</option>
+        <option value="total-cost">Total Cost</option>
+      </select>
 
-  <label for="filter-by-strategy">Filter By Strategy:</label>
-  <select id="filter-by-strategy" name="filter-by-strategy">
-    <option value="all">All</option>
-    <option value="strategy1">Strategy 1</option>
-    <option value="strategy2">Strategy 2</option>
-    <!-- Add more strategy options as needed -->
-  </select>
+      <label for="filter-by-strategy">Filter By Strategy:</label>
+      <select id="filter-by-strategy" name="filter-by-strategy">
+        <option value="all">All</option>
+        <option value="strategy1">Strategy 1</option>
+        <option value="strategy2">Strategy 2</option>
+        <!-- Add more strategy options as needed -->
+      </select>
 
-  <div id="recommendations-list">
-    <!-- Recommendations will be dynamically added here -->
-  </div>
-</section>
-
+      <div id="recommendations-list">
+        <!-- Recommendations will be dynamically added here -->
+      </div>
+    </section>
 
     <!-- Trade strategies section -->
     <section id="strategies-section">
@@ -67,30 +67,30 @@
       </ul>
     </section>
 
-   <!-- Tips and simulations section -->
-<section id="tips-section">
-  <h2>Tips and Simulations</h2>
-  <button id="show-tips-btn">Show Tips</button>
+    <!-- Tips and simulations section -->
+    <section id="tips-section">
+      <h2>Tips and Simulations</h2>
+      <button id="show-tips-btn">Show Tips</button>
 
-  <div id="tips-popup" class="popup">
-    <h3>Tips for Successful Options Trading</h3>
-    <p>Tip 1: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-    <p>Tip 2: Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-    <!-- Add more tips as needed -->
+      <div id="tips-popup" class="popup">
+        <h3>Tips for Successful Options Trading</h3>
+        <p>Tip 1: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <p>Tip 2: Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <!-- Add more tips as needed -->
 
-    <button id="close-tips-btn">Close</button>
-  </div>
+        <button id="close-tips-btn">Close</button>
+      </div>
 
-  <button id="show-simulation-btn">Start Simulation</button>
+      <button id="show-simulation-btn">Start Simulation</button>
 
-  <div id="simulation-popup" class="popup">
-    <h3>Option Trading Simulation</h3>
-    <!-- Add interactive simulation content here -->
-    <p>Simulation content goes here...</p>
+      <div id="simulation-popup" class="popup">
+        <h3>Option Trading Simulation</h3>
+        <!-- Add interactive simulation content here -->
+        <p>Simulation content goes here...</p>
 
-    <button id="close-simulation-btn">Close</button>
-  </div>
-</section>
+        <button id="close-simulation-btn">Close</button>
+      </div>
+    </section>
 
   </main>
 
